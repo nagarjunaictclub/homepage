@@ -1,0 +1,16 @@
+name: Vercel Hook Deployment
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Trigger Production Deployment
+        run: |
+          echo "Calling Production Hook"
+          curl -X POST ${{ secrets.VERCEL_PRODUCTION_HOOK }}

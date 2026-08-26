@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nagarjunaictclub.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important pages
+Allow: /about/
+Allow: /events/
+Allow: /members/
+Allow: /gallery/
+Allow: /contact/
+Allow: /blog/
+Allow: /sitemap/
+
+# Crawl delay (optional)
+Crawl-delay: 1 
