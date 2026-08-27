@@ -128,7 +128,7 @@ const Footer = () => {
         <div className="border-t border-gray-100 dark:border-white/10 bg-white/50 dark:bg-black/20 py-6">
           <div className="container mx-auto px-4 text-center">
             <p className="text-xs font-medium text-body-color dark:text-gray-400">
-              Copyright &copy; {new Date().getFullYear()} <a href="https://nagarjunaictclub.com/" className="text-black dark:text-white hover:text-primary dark:hover:text-yellow font-semibold">Nagarjuna ICT Club</a>. All rights reserved.
+              Copyright &copy; {new Date().getFullYear()} <a href="https://www.nagarjunaictclub.com/" className="text-black dark:text-white hover:text-primary dark:hover:text-yellow font-semibold">Nagarjuna ICT Club</a>. All rights reserved.
             </p>
           </div>
         </div>

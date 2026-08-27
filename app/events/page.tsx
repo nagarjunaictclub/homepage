@@ -2,6 +2,12 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import eventData from "@/components/Events/eventData";
 import SingleEvent from "@/components/Events/SingleEvent";
 
+export const metadata = {
+  title: "Events | Nagarjuna ICT Club",
+  description:
+    "Discover workshops, hackathons, guest sessions, and competitions organized by Nagarjuna ICT Club.",
+};
+
 const EventPage = () => {
   return (
     <>

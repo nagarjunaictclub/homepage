@@ -11,7 +11,7 @@ This document describes the accessible sitemap implementation added to the Nagar
   - Dynamic generation using Next.js 13+ App Router
   - Includes all main pages with proper priorities
   - Sets appropriate change frequencies
-  - Uses the correct domain (https://nagarjunaictclub.com)
+  - Uses the correct domain (https://www.nagarjunaictclub.com)
 
 ### 2. HTML Sitemap (`app/sitemap/page.tsx`)
 - **Purpose**: User-friendly sitemap page for visitors

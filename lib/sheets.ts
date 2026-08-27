@@ -18,10 +18,10 @@ export async function appendValues(spreadsheetId: String, range: String, valueIn
     "auth_provider_x509_cert_url": process.env.GOOGLE_AUTH_PROVIDER_CERT_URL || "https://www.googleapis.com/oauth2/v1/certs",
     "client_secret": process.env.GOOGLE_CLIENT_SECRET || "",
     "redirect_uris": [
-      "https://nagarjunaictclub.com"
+      "https://www.nagarjunaictclub.com"
     ],
     "javascript_origins": [
-      "https://nagarjunaictclub.com"
+      "https://www.nagarjunaictclub.com"
     ]
   };
   // const auth = new GoogleAuth({

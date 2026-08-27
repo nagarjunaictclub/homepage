@@ -10,24 +10,24 @@ import "react-toastify/dist/ReactToastify.css";
 import "../styles/index.css";
 
 export const metadata = {
-  metadataBase: new URL("https://nagarjunaictclub.com"), // ✅ Add this line
+  metadataBase: new URL("https://www.nagarjunaictclub.com"), // ✅ Add this line
   title: "Nagarjuna ICT Club",
   description: "Empowering Innovation, Connecting Minds | Open to students who are interested in any aspect of technology, from programming and web development to networking and cybersecurity",
   generator: 'cwsstudio',
   keywords: [
     'College club in nepal', 'nagarjuna ict club', 'nagarjuna college', 'ncit'
   ],
-  authors: [{ name: 'Nagarjuna ICT Club', url: 'https://nagarjunaictclub.com' }],
+  authors: [{ name: 'Nagarjuna ICT Club', url: 'https://www.nagarjunaictclub.com' }],
   creator: 'Nagarjuna ICT Club',
   publisher: 'Nagarjuna ICT Club',
   openGraph: {
     title: "Nagarjuna ICT Club | The Soulful Muse of Art, Style & Story",
     description: "Empowering Innovation, Connecting Minds | Open to students who are interested in any aspect of technology, from programming and web development to networking and cybersecurity",
-    url: 'https://nagarjunaictclub.com',
+    url: 'https://www.nagarjunaictclub.com',
     siteName: 'Nagarjuna ICT Club',
     images: [
       {
-        url: 'https://nagarjunaictclub.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f741106f.png&w=256&q=75',
+        url: 'https://www.nagarjunaictclub.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f741106f.png&w=256&q=75',
         width: 1200,
         height: 630,
         alt: 'Nagarjuna ICT Club',
@@ -42,7 +42,7 @@ export const metadata = {
     title: 'Nagarjuna ICT Club',
     description: "Empowering Innovation, Connecting Minds | Open to students who are interested in any aspect of technology, from programming and web development to networking and cybersecurity",
     creator: '@nagarjunaictclub',
-    images: ['https://nagarjunaictclub.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f741106f.png&w=256&q=75'],
+    images: ['https://www.nagarjunaictclub.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f741106f.png&w=256&q=75'],
   },
 }
 

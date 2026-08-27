@@ -2,6 +2,13 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import PresidentMessage from "@/components/About/PresidentMessage";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Nagarjuna ICT Club",
+  description:
+    "Learn about our mission, vision, core values, and founding leadership at Nagarjuna ICT Club.",
+};
 
 const AboutPage = () => {
   return (
