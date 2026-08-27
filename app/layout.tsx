@@ -10,41 +10,49 @@ import "react-toastify/dist/ReactToastify.css";
 import "../styles/index.css";
 
 export const metadata = {
-  metadataBase: new URL("https://www.nagarjunaictclub.com"), // ✅ Add this line
+  metadataBase: new URL("https://www.nagarjunaictclub.com"),
   title: "Nagarjuna ICT Club",
-  description: "Empowering Innovation, Connecting Minds | Open to students who are interested in any aspect of technology, from programming and web development to networking and cybersecurity",
-  generator: 'cwsstudio',
+  description:
+    "Empowering innovation and connecting minds. The official student tech community of Nagarjuna College of IT, exploring web, AI, & cybersecurity.",
+  generator: "cwsstudio",
   keywords: [
-    'College club in nepal', 'nagarjuna ict club', 'nagarjuna college', 'ncit'
+    "College club in nepal",
+    "nagarjuna ict club",
+    "nagarjuna college",
+    "ncit",
   ],
-  authors: [{ name: 'Nagarjuna ICT Club', url: 'https://www.nagarjunaictclub.com' }],
-  creator: 'Nagarjuna ICT Club',
-  publisher: 'Nagarjuna ICT Club',
+  authors: [
+    { name: "Nagarjuna ICT Club", url: "https://www.nagarjunaictclub.com" },
+  ],
+  creator: "Nagarjuna ICT Club",
+  publisher: "Nagarjuna ICT Club",
   openGraph: {
     title: "Nagarjuna ICT Club",
-    description: "Empowering Innovation, Connecting Minds | Open to students who are interested in any aspect of technology, from programming and web development to networking and cybersecurity",
-    url: 'https://www.nagarjunaictclub.com',
-    siteName: 'Nagarjuna ICT Club',
+    description:
+      "Empowering innovation and connecting minds. The official student tech community of Nagarjuna College of IT, exploring web, AI, & cybersecurity.",
+    url: "https://www.nagarjunaictclub.com",
+    siteName: "Nagarjuna ICT Club",
     images: [
       {
-        url: 'https://www.nagarjunaictclub.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f741106f.png&w=256&q=75',
+        url: "https://www.nagarjunaictclub.com/images/logo/logo.png",
         width: 1200,
         height: 630,
-        alt: 'Nagarjuna ICT Club',
-        type: 'image/jpeg'
-      }
+        alt: "Nagarjuna ICT Club",
+        type: "image/png",
+      },
     ],
-    type: 'website',
-    locale: 'en_US',
+    type: "website",
+    locale: "en_US",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Nagarjuna ICT Club',
-    description: "Empowering Innovation, Connecting Minds | Open to students who are interested in any aspect of technology, from programming and web development to networking and cybersecurity",
-    creator: '@nagarjunaictclub',
-    images: ['https://www.nagarjunaictclub.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f741106f.png&w=256&q=75'],
+    card: "summary_large_image",
+    title: "Nagarjuna ICT Club",
+    description:
+      "Empowering innovation and connecting minds. The official student tech community of Nagarjuna College of IT, exploring web, AI, & cybersecurity.",
+    creator: "@nagarjunaictclub",
+    images: ["https://www.nagarjunaictclub.com/images/logo/logo.png"],
   },
-}
+};
 
 
 export default function RootLayout({
