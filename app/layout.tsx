@@ -21,7 +21,7 @@ export const metadata = {
   creator: 'Nagarjuna ICT Club',
   publisher: 'Nagarjuna ICT Club',
   openGraph: {
-    title: "Nagarjuna ICT Club | The Soulful Muse of Art, Style & Story",
+    title: "Nagarjuna ICT Club",
     description: "Empowering Innovation, Connecting Minds | Open to students who are interested in any aspect of technology, from programming and web development to networking and cybersecurity",
     url: 'https://www.nagarjunaictclub.com',
     siteName: 'Nagarjuna ICT Club',
