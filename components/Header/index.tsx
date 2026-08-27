@@ -4,10 +4,8 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import logo from "../../app/assets/removed-bg-logo.png"
-import lightlogo from "../../app/assets/logo.png"
-import { useSession } from "next-auth/react";
-import { redirect } from "next/navigation"
+import logo from "../../app/assets/removed-bg-logo.png";
+import lightlogo from "../../app/assets/logo.png";
 
 const Header = () => {
   // Navbar toggle
@@ -15,23 +13,6 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
-
-
-  // const session = await getServerSession(authOptions)
-
-  // const { status } = useSession({
-  //   required: true,
-  //   onUnauthenticated() {
-  //     redirect("/signin")
-  //   },
-  // })
-
-  // React.useEffect(() => {
-  //   if (status === "authenticated") {
-  //     redirect("/portal")
-  //   }
-  // }, [status])
-
 
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
@@ -55,12 +36,6 @@ const Header = () => {
       setOpenIndex(index);
     }
   };
-
-  // const handleClick = () => {
-  //   if(status === "authenticated"){
-  //     redirect("/portal")
-  //   }
-  // }
 
 
   return (

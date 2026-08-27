@@ -1,6 +1,4 @@
-import { WelcomeEmail } from "../../emails/welcome";
 import nodemailer from "nodemailer";
-import { render } from "@react-email/render";
 
 /**
  * @params Email sending using nodemailer

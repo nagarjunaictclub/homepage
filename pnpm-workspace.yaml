@@ -1,0 +1,7 @@
+allowBuilds:
+  bcrypt: true
+  canvas: true
+  core-js: true
+  esbuild: true
+  fast-folder-size: true
+  unrs-resolver: true

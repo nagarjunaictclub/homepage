@@ -37,13 +37,6 @@ const sitemapData = [
       { name: "Research Papers", url: "/pdf", description: "Academic papers and research" },
     ],
   },
-  {
-    title: "Account",
-    links: [
-      { name: "Sign In", url: "/signin", description: "Member login" },
-      { name: "Sign Up", url: "/signup", description: "Join our club" },
-    ],
-  },
 ];
 
 export default function SitemapPage() {
