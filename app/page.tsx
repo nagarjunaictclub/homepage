@@ -1,5 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import PresidentMessage from "@/components/About/PresidentMessage";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -10,7 +11,7 @@ import Event from "@/components/Events";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,17 +23,18 @@ export default function Home() {
       <Hero />
       <Features />
       <Event />
-      <div className="container flex items-center justify-center pt-[24px]">
+      <div className="container mx-auto px-4 flex items-center justify-center pt-8 pb-16">
         <Link
           href={"/events"}
-          className="rounded-md bg-primary px-2 py-3 text-center text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+          className="inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3.5 text-base font-semibold text-white shadow-md hover:bg-primary/90 hover:shadow-lg transition-all duration-200"
         >
-          See More
+          See All Events →
         </Link>
       </div>
       {/* <Video /> */}
       {/* <Brands /> */}
       <AboutSectionOne />
+      <PresidentMessage />
       {/* <AboutSectionTwo /> */}
       <Testimonials />
       {/* <Pricing /> */}

@@ -7,70 +7,67 @@ const yes = true;
 const Hero = () => {
   return (
     <>
-      <section
-        id="home"
-        className="relative z-10 overflow-hidden bg-primary/5  pt-[120px] md:pb-[12px] md:pt-[150px] xl:pb-[16px] xl:pt-[180px] 2xl:pb-[20px] 2xl:pt-[170px]"
-      >
-        <div className="container">
-          <div className="flex flex-wrap items-center">
-            <div
-              className="wow fadeInUp mx-auto w-full text-center xs:w-full xl:w-2/5"
-              data-wow-delay=".2s"
-            >
-              <h1 className="mb-3 mt-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Empowering Innovation, Connecting Minds
-              </h1>
-              <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Open to students who are interested in any aspect of technology,
-                from programming and web development to networking and
-                cybersecurity
-              </p>
-              {yes && (
-                <>
-                  <Marquee
-                    autoFill
-                    speed={30}
-                    gradientWidth={200}
-                    gradientColor="rgb(248, 251, 253)"
-                    className="pb-5"
-                  >
-                    <span className="mx-2 text-xl"></span>
-                  </Marquee>
+    <section
+      id="home"
+      className="relative z-10 overflow-hidden bg-gradient-to-b from-primary/10 via-primary/5 to-transparent pt-[140px] pb-16 md:pt-[170px] md:pb-24 lg:pt-[190px] lg:pb-28"
+    >
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div
+            className="wow fadeInUp lg:col-span-7 text-center lg:text-left"
+            data-wow-delay=".2s"
+          >
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 mb-6 text-xs font-semibold tracking-wide text-primary dark:text-yellow uppercase bg-primary/10 dark:bg-yellow/10 rounded-full border border-primary/20 dark:border-yellow/20">
+              <span className="h-2 w-2 rounded-full bg-primary dark:bg-yellow animate-pulse"></span>
+              Nagarjuna ICT Club
+            </div>
+            
+            <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-black dark:text-white sm:text-5xl lg:text-6xl leading-[1.15]">
+              Empowering Innovation, <span className="bg-gradient-to-r from-primary via-[#3b609b] to-yellow bg-clip-text text-transparent dark:from-yellow dark:to-white">Connecting Minds</span>
+            </h1>
+            
+            <p className="mb-8 text-base text-body-color dark:text-gray-300 leading-relaxed md:text-lg lg:text-xl max-w-2xl mx-auto lg:mx-0">
+              Open to students interested in any aspect of technology — from programming and web development to AI, networking, and cybersecurity.
+            </p>
 
-                  <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                    <Link
-                      href="https://forms.gle/L2yTZdWCEjC33SqD7"
-                      target="_blank"
-                      className={`${"animate-wiggle"} rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80`}
-                    >
-                      Workshop on Git and Github
-                    </Link>
-                    {/* <Link
-                      href="https://skillsharp.nagarjunaictclub.com"
-                      target="_blank"
-                      className={`${"animate-wiggle"} rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80`}
-                    >
-                     Skill# - Season 1
-                    </Link> */}
-                    {/* <Link
-                    href="/RandDTeam"
-                    className="rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    R&D Team
-                  </Link> */}
-                  </div>
-                </>
-              )}
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
+              <Link
+                href="/events"
+                className="w-full sm:w-auto inline-flex items-center justify-center rounded-lg bg-primary px-7 py-3.5 text-base font-semibold text-white shadow-md hover:bg-primary/90 hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary/50"
+              >
+                Explore Events
+              </Link>
+              <Link
+                href="/about"
+                className="w-full sm:w-auto inline-flex items-center justify-center rounded-lg border border-gray-300 dark:border-white/20 bg-white/50 dark:bg-white/5 px-7 py-3.5 text-base font-semibold text-black dark:text-white hover:bg-gray-100 dark:hover:bg-white/10 transition-all duration-200"
+              >
+                Learn About Us
+              </Link>
             </div>
 
-            <div
-              className="wow fadeInUp mx-auto text-center xs:w-full xl:w-2/5"
-              data-wow-delay=".2s"
-            >
+            <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-medium text-body-color dark:text-gray-400">
+              <span className="px-2 py-0.5 rounded bg-yellow/20 text-yellow-900 dark:text-yellow font-bold uppercase tracking-wider text-[10px]">Upcoming</span>
+              <a
+                href="https://forms.gle/L2yTZdWCEjC33SqD7"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-primary dark:hover:text-yellow underline underline-offset-4 transition-colors"
+              >
+                Workshop on Git & GitHub →
+              </a>
+            </div>
+          </div>
+
+          <div
+            className="wow fadeInUp lg:col-span-5 text-center flex justify-center items-center"
+            data-wow-delay=".3s"
+          >
+            <div className="w-full max-w-[450px]">
               <Lottie animationData={groovyWalkAnimation} loop={true} />
             </div>
           </div>
         </div>
+      </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"

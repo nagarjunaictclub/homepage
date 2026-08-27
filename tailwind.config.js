@@ -47,8 +47,10 @@ module.exports = {
       },
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
-        one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
-        sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
+        one: "0px 4px 20px rgba(7, 7, 77, 0.05)",
+        card: "0 10px 30px -10px rgba(0, 0, 0, 0.05)",
+        "card-hover": "0 20px 40px -15px rgba(36, 62, 106, 0.15)",
+        sticky: "0 10px 30px -10px rgba(0, 0, 0, 0.1)",
       },
       keyframes: {
         wiggle: {

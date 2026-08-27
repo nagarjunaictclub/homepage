@@ -19,24 +19,26 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   }
 
   return (
-    <div className="w-full">
+    <div className="w-full h-full">
       <div
-        className="wow fadeInUp rounded-md bg-white p-8 shadow-one dark:bg-[#1D2144] lg:px-5 xl:px-8"
+        className="wow fadeInUp flex h-full flex-col justify-between rounded-2xl border border-gray-100 dark:border-white/10 bg-white dark:bg-[#131943] p-8 shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-300"
         data-wow-delay=".1s"
       >
-        <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div>
-        <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
-          “{content}
-        </p>
-        <div className="flex items-center">
-          <div className="relative mr-4 h-[55px] w-full max-w-[55px] overflow-hidden rounded-full">
-            <Image src={image} alt={name} fill  className="object-cover aspect-square" />
+        <div>
+          <div className="mb-6 flex items-center space-x-1">{ratingIcons}</div>
+          <p className="mb-8 text-base leading-relaxed text-body-color dark:text-gray-300 italic">
+            “{content}”
+          </p>
+        </div>
+        <div className="flex items-center pt-6 border-t border-gray-100 dark:border-white/5">
+          <div className="relative mr-4 h-[50px] w-[50px] shrink-0 overflow-hidden rounded-full border-2 border-primary/20 dark:border-yellow/20">
+            <Image src={image} alt={name} fill sizes="50px" className="object-cover" />
           </div>
           <div className="w-full">
-            <h5 className="mb-1 text-lg font-semibold text-dark dark:text-white lg:text-base xl:text-lg">
+            <h5 className="text-base font-bold text-black dark:text-white">
               {name}
             </h5>
-            <p className="text-sm text-body-color">{designation}</p>
+            <p className="text-xs font-medium text-body-color dark:text-gray-400">{designation}</p>
           </div>
         </div>
       </div>

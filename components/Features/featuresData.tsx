@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
       "Engage in interactive workshops where you can gain practical knowledge and hands-on experience with cutting-edge technologies, coding languages, and software tools.",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
       "Connect with industry professionals, guest speakers, and fellow members through networking events, panel discussions, and mentorship programs.",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -47,7 +47,7 @@ const featuresData: Feature[] = [
       "Collaborate with like-minded individuals on exciting and innovative projects that push the boundaries of technology.",
   },
   {
-    id: 1,
+    id: 4,
     icon: (
       <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
         <path
@@ -62,7 +62,7 @@ const featuresData: Feature[] = [
       "Attend exclusive events, seminars, and tech talks featuring renowned speakers and industry leaders.",
   },
   {
-    id: 1,
+    id: 5,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -77,7 +77,7 @@ const featuresData: Feature[] = [
       " Access resources and guidance to kickstart your career in ICT. Benefit from resume workshops, interview preparation sessions, and job/internship opportunities shared within our club network.      ",
   },
   {
-    id: 1,
+    id: 6,
     icon: (
       <svg width="40" height="45" viewBox="0 0 40 45" className="fill-current">
         <path

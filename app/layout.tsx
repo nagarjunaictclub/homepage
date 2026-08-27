@@ -60,7 +60,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className="dark:bg-black">
+      <body className="bg-white dark:bg-black">
         <Providers>
           {/* Skip to content link for accessibility */}
           <a

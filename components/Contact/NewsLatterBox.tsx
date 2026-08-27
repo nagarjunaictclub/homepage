@@ -35,47 +35,56 @@ const NewsLatterBox = () => {
 
   return (
     <div
-      className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
+      className="wow fadeInUp relative z-10 rounded-2xl border border-gray-100 dark:border-white/10 bg-white dark:bg-[#131943] p-8 sm:p-10 shadow-card"
       data-wow-delay=".2s"
     >
-      <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-        Subscribe to receive future updates
+      <h3 className="mb-3 text-2xl font-bold tracking-tight text-black dark:text-white">
+        Subscribe for Updates
       </h3>
-      <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.movies
+      <p className="mb-8 border-b border-gray-100 dark:border-white/10 pb-6 text-sm text-body-color dark:text-gray-300 leading-relaxed">
+        Stay updated with our latest workshops, tech talks, hackathons, and community news delivered to your inbox.
       </p>
-      <form method="post">
-        <input
-          type="text"
-          name="name"
-          value={newsletter.name}
-          onChange={(e) =>
-            setNewsletter({ ...newsletter, name: e.target.value })
-          }
-          placeholder="Enter your name"
-          className="mb-4 w-full rounded-md border border-body-color border-opacity-10 px-6 py-3 text-base font-medium text-body-color placeholder-body-color outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
-        />
-        <input
-          type="email"
-          name="email"
-          value={newsletter.email}
-          onChange={(e) =>
-            setNewsletter({ ...newsletter, email: e.target.value })
-          }
-          placeholder="Enter your email"
-          className="mb-4 w-full rounded-md border border-body-color border-opacity-10 px-6 py-3 text-base font-medium text-body-color placeholder-body-color outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
-        />
-        <input
+      <form method="post" onSubmit={handleSubmit}>
+        <div className="mb-4">
+          <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-700 dark:text-gray-300">
+            Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            value={newsletter.name}
+            onChange={(e) =>
+              setNewsletter({ ...newsletter, name: e.target.value })
+            }
+            placeholder="Enter your name"
+            className="w-full rounded-lg border border-gray-200 dark:border-white/10 bg-gray-50/50 dark:bg-white/5 px-4 py-3 text-sm text-black dark:text-white placeholder-gray-400 dark:placeholder-gray-500 outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/20 dark:focus:border-yellow dark:focus:ring-yellow/20"
+          />
+        </div>
+        <div className="mb-6">
+          <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-700 dark:text-gray-300">
+            Email Address
+          </label>
+          <input
+            type="email"
+            name="email"
+            value={newsletter.email}
+            onChange={(e) =>
+              setNewsletter({ ...newsletter, email: e.target.value })
+            }
+            placeholder="Enter your email"
+            className="w-full rounded-lg border border-gray-200 dark:border-white/10 bg-gray-50/50 dark:bg-white/5 px-4 py-3 text-sm text-black dark:text-white placeholder-gray-400 dark:placeholder-gray-500 outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/20 dark:focus:border-yellow dark:focus:ring-yellow/20"
+          />
+        </div>
+        <button
           type="submit"
-          onClick={(e) => handleSubmit(e)}
           disabled={newsletter.email === "" || newsletter.name === ""}
-          value="Subscribe"
-          className="duration-80 mb-4 w-full  cursor-pointer rounded-md border border-transparent bg-primary px-6 py-3 text-center text-base font-medium text-white outline-none transition ease-in-out hover:bg-opacity-80 hover:shadow-signUp focus-visible:shadow-none disabled:cursor-auto disabled:bg-primary disabled:text-[#fff]"
-        />
+          className="mb-4 w-full rounded-lg bg-primary px-6 py-3.5 text-center text-sm font-semibold text-white shadow-md hover:bg-primary/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          Subscribe Now
+        </button>
 
-        <p className="text-center text-base font-medium leading-relaxed text-body-color">
-          No spam guaranteed, So please don’t send any spam mail.
+        <p className="text-center text-xs text-body-color dark:text-gray-400">
+          🔒 Zero spam. Unsubscribe at any time.
         </p>
       </form>
       <div className="absolute left-0 top-0 z-[-1]">

@@ -1,0 +1,197 @@
+Website UI Revamp Prompt
+Website UI Revamp — Senior UI/UX & Frontend Design Brief
+You are a senior frontend developer. 
+Redesign the existing website with a modern, clean, premium, and highly usable interface while preserving the existing brand identity.
+
+Primary Objective
+
+Revamp the current UI without completely changing its visual identity. Keep the existing color palette and overall brand character, but improve typography, spacing, hierarchy, layout, responsiveness, visual consistency, and usability.
+
+The final design should feel like a professionally designed modern product rather than a basic template.
+
+Design Direction
+Use the existing brand colors as the foundation. Do not introduce an unrelated color palette.
+Refine the existing colors by establishing clear roles for:
+Primary color
+Secondary/accent color
+Background
+Surface/card background
+Primary text
+Secondary/muted text
+Borders/dividers
+Success, warning, and error states
+Create a consistent design system and use the same visual rules across every page.
+Use a clean, modern, minimal aesthetic with generous whitespace.
+Avoid excessive gradients, shadows, borders, rounded containers, or decorative elements.
+Prioritize content hierarchy and usability over visual decoration.
+Typography
+
+Improve typography throughout the website.
+
+Use a modern, highly readable font family.
+Establish a clear type scale for:
+Hero headings
+Page headings
+Section headings
+Subheadings
+Body text
+Labels
+Buttons
+Captions
+Use appropriate font weights rather than relying on oversized text.
+Improve line height, letter spacing, paragraph width, and text contrast.
+Maintain consistent typography across all components and pages.
+Layout & Spacing
+
+Rework the layout using a consistent responsive grid system.
+
+Establish a clear maximum content width.
+Use consistent horizontal page padding.
+Create predictable vertical spacing between sections.
+Align headings, cards, buttons, forms, and content to a consistent grid.
+Improve visual rhythm through consistent spacing tokens.
+Avoid cramped layouts and unnecessary empty areas.
+Use whitespace intentionally to guide the user's attention.
+Navigation & Header
+
+Redesign the navigation to feel cleaner and more modern.
+
+Create a clear visual hierarchy between logo, primary navigation, secondary actions, and CTA.
+Keep navigation simple and easy to scan.
+Ensure the header works well on desktop, tablet, and mobile.
+Use a polished mobile navigation pattern.
+Clearly indicate the active navigation item.
+Make important CTAs visually prominent without overpowering the interface.
+Hero / Above-the-Fold Section
+
+Redesign the hero section to immediately communicate the website's value proposition.
+
+Create a strong headline hierarchy.
+Keep supporting copy concise and readable.
+Make the primary CTA prominent.
+Use secondary CTA styling where appropriate.
+Improve the relationship between text and visual content.
+Avoid overcrowding the hero.
+Ensure the most important information is visible immediately without overwhelming the user.
+Cards & Content Sections
+
+Redesign existing cards and content blocks with a consistent component system.
+
+Use consistent border radius, padding, shadows, and borders.
+Avoid excessive card nesting.
+Create stronger visual hierarchy inside cards.
+Use icons and imagery purposefully.
+Make interactive cards clearly distinguishable from static content.
+Maintain consistent card behavior across the entire website.
+Buttons & Interactive Elements
+
+Create a unified button system.
+
+Include clear styles for:
+
+Primary button
+Secondary button
+Outline button
+Text/link button
+Disabled state
+Hover state
+Active/pressed state
+Focus state
+Loading state
+
+Buttons should have consistent height, padding, typography, radius, and icon alignment.
+
+Forms & Inputs
+
+Improve forms for clarity and usability.
+
+Use clear labels rather than relying only on placeholders.
+Provide appropriate input spacing.
+Create consistent input heights and border styles.
+Clearly distinguish focus, error, success, and disabled states.
+Make validation messages easy to understand.
+Group related fields logically.
+Ensure forms are comfortable to use on mobile devices.
+Visual Hierarchy
+
+Every page should have a clear hierarchy:
+
+Primary action → Main message → Supporting information → Secondary content → Optional details
+
+Users should be able to understand the purpose of a page within a few seconds.
+
+Use size, weight, spacing, color, alignment, and positioning to establish hierarchy rather than adding unnecessary visual decoration.
+
+Responsive Design
+
+Design mobile-first and ensure the interface works seamlessly across:
+
+Mobile
+Tablet
+Laptop
+Desktop
+Large desktop screens
+
+Do not simply shrink the desktop layout. Reconsider layouts, navigation, grids, typography, spacing, and interactions for smaller screens.
+
+Accessibility
+
+Follow modern accessibility practices.
+
+Maintain sufficient color contrast.
+Use readable font sizes.
+Provide visible keyboard focus states.
+Ensure interactive elements have appropriate touch targets.
+Use semantic HTML structure.
+Do not communicate information through color alone.
+Ensure forms and controls are accessible.
+Micro-interactions
+
+Add subtle, purposeful interactions.
+
+Use restrained animations for:
+
+Button hover
+Navigation interactions
+Card hover
+Dropdowns
+Modals
+Form validation
+Page/section transitions
+
+Animations should feel fast and polished, never distracting or excessive.
+
+Component Consistency
+
+Create a reusable visual system for:
+
+Header
+Navigation
+Buttons
+Cards
+Forms
+Inputs
+Dropdowns
+Tabs
+Badges
+Alerts
+Modals
+Tables
+Breadcrumbs
+Footer
+Empty states
+Loading states
+
+Do not design individual components in isolation. Every component should feel like part of the same design system.
+
+Overall Visual Goal
+
+The redesigned website should feel:
+
+Clean · Modern · Professional · Consistent · Spacious · Premium · Accessible · Easy to Navigate
+
+Preserve the existing brand colors and identity, but significantly improve how those colors, typography, spacing, components, and layouts are used.
+
+Do not blindly redesign everything. First understand the existing information architecture and content, then identify visual inconsistencies and UX problems and solve them through a coherent modern design system.
+
+Think like a senior UI designer and frontend developer: the result should not only look better, but also be practical to implement, responsive, accessible, scalable, and consistent across the entire website.

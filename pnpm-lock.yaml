@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@next/font':
-        specifier: 13.4.6
-        version: 13.4.6
       '@react-email/button':
         specifier: 0.0.9
         version: 0.0.9
@@ -537,9 +534,6 @@ packages:
 
   '@next/eslint-plugin-next@13.5.11':
     resolution: {integrity: sha512-0qjDhes9UTSxirt/dYzrv20hs8SUhcIOvlEioj5+XucVrBHihnAk6Om7Vzk+VZ2nRE7tcShm/6lH1xSkJ3XMpg==}
-
-  '@next/font@13.4.6':
-    resolution: {integrity: sha512-Pjm6B6f4KWr4kWe7yu2trLtwQPco/wLSOzWeD7bW17Sd209ibrhRwbSggvlAt1FJu8K4ag2xtVg8WfRFbON1mw==}
 
   '@next/swc-darwin-arm64@16.3.3':
     resolution: {integrity: sha512-8Hiv32QJPwdV6KYJ8meR9SBA061tQqnIKTJDocvOXlEQqib0xMFpzArosuffFUUc0sslbh7QQ8a3Yey1QV8EIw==}
@@ -3830,8 +3824,6 @@ snapshots:
   '@next/eslint-plugin-next@13.5.11':
     dependencies:
       glob: 7.1.7
-
-  '@next/font@13.4.6': {}
 
   '@next/swc-darwin-arm64@16.3.3':
     optional: true

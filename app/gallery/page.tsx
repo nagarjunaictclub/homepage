@@ -29,20 +29,12 @@ export default function GalleryPage() {
   };
 
   React.useEffect(() => {
-    setShowAlbum;
-  }, [album]);
-
-  React.useEffect(() => {
     if (typeof window !== "undefined" && window.localStorage) {
       localStorage.setItem("gallerydata", JSON.stringify(galleryData));
       localStorage.setItem("album", JSON.stringify(album));
       localStorage.setItem("showgallery", JSON.stringify(showGallery));
       localStorage.setItem("title", title);
     }
-
-    return () => {
-      localStorage.clear();
-    };
   }, [album, showGallery, title]);
 
   const handleShowGallery = (id: any, title: any) => {

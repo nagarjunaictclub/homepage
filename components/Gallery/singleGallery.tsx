@@ -22,7 +22,7 @@ const SingleGallery = ({ gallery, setShowGallery, setShowAlbum }) => {
           <div className="flex flex-col gap-4 w-full md:w-1/2">
             {gallery.album.firstColumn.map((firstcolumn: any) => (
               <ImageColumn
-                key={firstcolumn.id}
+                key={`first-${firstcolumn.id}`}
                 column={firstcolumn}
                 dataImage={`galleryimage-${firstcolumn.id}`}
                 columnName="firstcolumn"
@@ -32,7 +32,7 @@ const SingleGallery = ({ gallery, setShowGallery, setShowAlbum }) => {
           <div className="flex flex-col gap-4 w-full md:w-1/2">
             {gallery.album.secondColumn.map((secondcolumn: any) => (
               <ImageColumn
-                key={secondcolumn.id}
+                key={`second-${secondcolumn.id}`}
                 column={secondcolumn}
                 dataImage={`galleryimage-${secondcolumn.id}`}
                 columnName="secondcolumn"

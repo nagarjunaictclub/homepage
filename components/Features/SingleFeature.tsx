@@ -4,16 +4,21 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
   const { icon, title, paragraph } = feature;
   return (
     <div className="w-full">
-      <div className="wow fadeInUp" data-wow-delay=".15s">
-        <div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-          {icon}
+      <div
+        className="wow fadeInUp h-full rounded-2xl border border-gray-100 dark:border-white/10 bg-white dark:bg-[#131943] p-8 shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between"
+        data-wow-delay=".15s"
+      >
+        <div>
+          <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 dark:bg-yellow/10 text-primary dark:text-yellow">
+            {icon}
+          </div>
+          <h3 className="mb-3 text-xl font-bold tracking-tight text-black dark:text-white">
+            {title}
+          </h3>
+          <p className="text-base leading-relaxed text-body-color dark:text-gray-300">
+            {paragraph}
+          </p>
         </div>
-        <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-          {title}
-        </h3>
-        <p className="pr-[10px] text-base font-medium leading-relaxed dark:text-white  text-black">
-          {paragraph}
-        </p>
       </div>
     </div>
   );
