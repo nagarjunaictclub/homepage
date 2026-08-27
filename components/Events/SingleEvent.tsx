@@ -47,11 +47,7 @@ export default function SingleEvent({ event }: { event: Events }) {
         <div>
           <h3 className="mb-3">
             <Link
-              href={{
-                pathname: `/events/${title.replaceAll(/\s/g, "")}`,
-                query: event,
-              }}
-              target="_blank"
+              href={`/events/${navigationPath || title.replaceAll(/\s/g, "")}`}
               className="text-xl font-bold tracking-tight text-black dark:text-white hover:text-primary dark:hover:text-yellow transition-colors line-clamp-2"
             >
               {title}
@@ -72,11 +68,7 @@ export default function SingleEvent({ event }: { event: Events }) {
 
         <div className="flex flex-col sm:flex-row items-center gap-3 pt-4 border-t border-gray-100 dark:border-white/5">
           <Link
-            href={{
-              pathname: `/events/${title.replaceAll(/\s/g, "")}`,
-              query: event,
-            }}
-            target="_blank"
+            href={`/events/${navigationPath || title.replaceAll(/\s/g, "")}`}
             className="w-full flex-1 rounded-lg bg-primary px-4 py-2.5 text-center text-sm font-semibold text-white hover:bg-primary/90 transition-all shadow-sm hover:shadow"
           >
             Read Details
